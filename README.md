@@ -13,9 +13,10 @@ This project uses a CNN model built in Keras (Flask backend) and a React fronten
 Backend (Flask)
 ```bash
 pip install -r requirements.txt
-python app.py
+python app.py 
 
 Frontend
+```bash
 cd frontend
 npm instal
 npm start
