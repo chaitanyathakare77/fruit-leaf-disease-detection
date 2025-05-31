@@ -20,22 +20,16 @@ This project uses a **Convolutional Neural Network (CNN)** model built with **Ke
 
 ### 📦 Backend (Flask API)
 
-1. **Navigate to the backend folder** (or root if everything is together):
-
-    ```bash
-    cd backend  # or root if there's no separate folder
-    ```
-
-2. **Install required Python packages**:
+1. **Install required Python packages**:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Run the Flask server**:
+2. **Run the Flask server**:
 
     ```bash
-    python app.py
+    python main.py
     ```
 
 > ✅ Ensure your trained model is located at:  
@@ -85,6 +79,3 @@ This project uses a **Convolutional Neural Network (CNN)** model built with **Ke
 
 ---
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
