@@ -1,22 +1,90 @@
-🌿 Leaf Disease Detection
+# 🌿 Leaf Disease Detection
 
-This project uses a CNN model built in Keras (Flask backend) and a React frontend to detect plant leaf diseases.
+This project uses a **Convolutional Neural Network (CNN)** model built with **Keras** (served via a **Flask** backend) and a **React** frontend to detect plant leaf diseases from uploaded images.
 
-🔧 Tech Stack
-- Frontend: React
-- Backend: Flask (Python)
-- Model: Trained using Keras
-- UI: Image upload, disease prediction, confidence score
+---
 
-🚀 How to Run
+## 🔧 Tech Stack
 
-Backend (Flask)
-```bash
-pip install -r requirements.txt
-python app.py 
+- **Frontend**: ReactJS  
+- **Backend**: Flask (Python)  
+- **Model**: Trained with Keras using TensorFlow backend  
+- **UI Features**:  
+  - Upload leaf image  
+  - Predict disease type  
+  - Show prediction confidence
 
-Frontend
-```bash
-cd frontend
-npm instal
-npm start
+---
+
+## 🚀 How to Run the Project
+
+### 📦 Backend (Flask API)
+
+1. **Navigate to the backend folder** (or root if everything is together):
+
+    ```bash
+    cd backend  # or root if there's no separate folder
+    ```
+
+2. **Install required Python packages**:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Run the Flask server**:
+
+    ```bash
+    python app.py
+    ```
+
+> ✅ Ensure your trained model is located at:  
+> `Training/model/Leaf Deases(96,88).h5`
+
+---
+
+### 💻 Frontend (React App)
+
+1. **Navigate to the frontend folder**:
+
+    ```bash
+    cd frontend
+    ```
+
+2. **Install React dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server**:
+
+    ```bash
+    npm start
+    ```
+
+> React will run at `http://localhost:3000`  
+> Flask backend should run at `http://localhost:5000`
+
+---
+
+## 📸 Sample UI
+
+- Upload a leaf image
+- Click “Upload & Predict”
+- View the predicted disease name and confidence percentage
+
+---
+
+## ✅ Future Enhancements
+
+- Add real-time webcam support
+- Improve model accuracy
+- Deploy the app to Render / Vercel / Heroku / AWS
+- Add support for more plant species
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
